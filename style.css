@@ -1,3 +1,6 @@
+body {
+  background-color: lightgrey;
+}
 .layout-plan {
   /*определяет границы контента на протяжении всей страницы, где это необходимо*/
   max-width: 1280px;
@@ -10,3 +13,20 @@
   display: table;
   clear: both;
 }
+.main-nav ul {
+  display: inline;
+  font-size: 16px;
+  font-family: "Oswald";
+  color: blueviolet;
+}
+/*.nav ul li {
+  font-size: 16px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 137.359px;
+  top: 41.4px;
+  z-index: 133;
+}*/
