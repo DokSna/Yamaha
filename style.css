@@ -1,0 +1,12 @@
+.layout-plan {
+  /*определяет границы контента на протяжении всей страницы, где это необходимо*/
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  /*при использовании float-боксов - родительский контейнер не будет "схлопываться"*/
+  content: "";
+  display: table;
+  clear: both;
+}
