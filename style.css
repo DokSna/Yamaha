@@ -28,6 +28,21 @@ header {
   border-bottom: 1px solid #dadfe6;
   box-sizing: border-box;
 }
+.links-header {
+  float: right;
+  margin-top: 39px;
+}
+.links-header li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 32px;
+  font-family: "Oswald";
+  font-size: 10px;
+  /*vertical-align: middle;*/
+}
+.main-nav {
+  float: left;
+}
 .main-nav li {
   list-style-type: none;
   display: inline-block;
@@ -53,7 +68,7 @@ header {
   text-transform: uppercase;
   font-family: Oswald;
   line-height: 1.2;
-  text-align: center
+  text-align: center;
 }
 .logo-1 img {
   width: 44px;
@@ -88,4 +103,15 @@ header {
   left: 137.359px;
   top: 41.4px;
   z-index: 133;
+}*/
+/*.FIND_A_DEALER__________MY_YAMAHA_LOGIN_SIGNUP__ {
+  font-size: 12px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 1024.265px;
+  top: 43.8px;
+  z-index: 136;
 }*/
