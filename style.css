@@ -49,22 +49,23 @@ header {
   float: left;
   margin: 0 auto;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   font-family: Oswald;
   line-height: 1.2;
   text-align: center
 }
 .logo-1 img {
-  width: 50px;
-  margin: 10px auto 5px;;
+  width: 44px;
+  margin: 10px auto 0px;
 }
 .logo-1 p {
   margin: 0;
 }
 .smile {
-  font-size: 10px;
+  font-size: 9px;
   margin: 0;
+  letter-spacing: 1px; /*расстояние между букв*/
 }
 /*.Layer_24 {
   background-image: url("Layer 24.png");
