@@ -112,4 +112,32 @@ a:active {
 .search {
   min-width: 100px;
 }
+nav {
+  height: 166px;
+  border-bottom: 1px solid #dadfe6;
+  box-sizing: border-box;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  border-bottom: 3px solid #ee3b33;
+  height: 162px;
+  /*float: left;*/
+  margin: 0 30px;
+}
+.sub-nav-image {
+  width: 157px;
+  height: 90px;
+  margin: 10px 0 19px;
+}
+.sub-nav-number {
+  font-size: 13px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  line-height: 1.2;
+  text-align: center;
+}
+.sub-nav a:first-child {
+  margin-left: 0;
+}
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
