@@ -6,10 +6,12 @@ ul {
 }
 body {
   background-color: #ffffff;
+  min-width: 1133px; /*что бы не ломался макет, потом в конце общую адаптивность сделаем под разные экраны*/
 }
 .layout-plan {
   /*определяет границы контента на протяжении всей страницы, где это необходимо*/
-  max-width: 1280px;
+  /*max-width: 1280px;*/
+  max-width: 86.6%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -35,7 +37,7 @@ header {
 .links-header li {
   list-style-type: none;
   display: inline;
-  margin-left: 32px;
+  margin: 16px;
   font-family: "Oswald";
   font-size: 10px;
   /*vertical-align: middle;*/
@@ -57,9 +59,19 @@ header {
 .main-nav li:hover {
   border-bottom: 3px solid #ee3b33;
 }
+.search {
+  float: right;
+  height: 99px;
+  /*width: 100px;*/
+  width: 6.7%;
+}
+.search img {
+  margin: 41px 17px;
+}
 .logo-1 {
   background-color: #ee3b33;
-  width: 100px;
+  /*width: 100px;*/
+  width: 6.7%;
   height: 99px;
   float: left;
   margin: 0 auto;
@@ -82,6 +94,13 @@ header {
   margin: 0;
   letter-spacing: 1px; /*расстояние между букв*/
 }
+.logo-1,
+.search {
+  min-width: 100px;
+}
+/*.main-nav li:first-child {
+  padding-left: 0px;
+}*/
 /*.Layer_24 {
   background-image: url("Layer 24.png");
   position: absolute;
@@ -115,3 +134,4 @@ header {
   top: 43.8px;
   z-index: 136;
 }*/
+/*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
