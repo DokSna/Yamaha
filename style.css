@@ -125,6 +125,37 @@ nav li {
   line-height: 1.2;
   text-align: center;
 }
+/*  main  ----------------------------------------*/
+.description {
+  height: 634px;  
+}
+.description-image {
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;*/
+  width: 54%;
+  float: left;
+  box-sizing: border-box;
+  padding: 110px 40px;
+  position: relative;
+}
+.power {
+  display: block;
+  margin: 0 auto;
+  width: 100%;/*594px;*/
+}
+.moto {
+  position: absolute;
+  width: 108%;
+  top: 125px;
+  right: -15px;
+}
+.description-text {
+  width: 46%;
+  float: right;
+  box-sizing: border-box;
+}  
+/*--main-end--------------------------------------*/
 a:link {
   color: rgb(33, 35, 39);
 }
