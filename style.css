@@ -117,13 +117,17 @@ nav {
   border-bottom: 1px solid #dadfe6;
   box-sizing: border-box;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
 nav li {
   list-style-type: none;
   display: inline-block;
   border-bottom: 3px solid #ee3b33;
   height: 162px;
   /*float: left;*/
-  margin: 0 30px;
+  /*margin: 0 30px;*/
 }
 .sub-nav-image {
   width: 157px;
@@ -137,7 +141,5 @@ nav li {
   line-height: 1.2;
   text-align: center;
 }
-.sub-nav a:first-child {
-  margin-left: 0;
-}
+
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
