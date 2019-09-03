@@ -136,19 +136,22 @@ nav li {
   width: 54%;
   float: left;
   box-sizing: border-box;
-  padding: 110px 40px;
+  padding: 110px 0px;
   position: relative;
 }
 .power {
   display: block;
-  margin: 0 auto;
-  width: 100%;/*594px;*/
+  /*margin: 0 auto;*/
+  width: 586px;/*100%;594px;*/
 }
 .moto {
-  position: absolute;
-  width: 108%;
-  top: 125px;
-  right: -15px;
+  position: relative;
+  width: 610x;/*108%;*/
+  bottom: 125px;
+  right: 0px;
+
+/*  top: 125px;
+  right: -15px;*/
 }
 .description-text {
   width: 46%;
