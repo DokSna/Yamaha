@@ -141,7 +141,6 @@ nav li {
 }
 .power {
   display: block;
-  /*margin: 0 auto;*/
   width: 586px;/*100%;594px;*/
 }
 .moto {
@@ -149,9 +148,22 @@ nav li {
   width: 610x;/*108%;*/
   bottom: 125px;
   right: 0px;
-
-/*  top: 125px;
-  right: -15px;*/
+}
+.point-1 {
+  position: relative;
+  bottom: 387px;
+  right: 52px;
+  color: white;
+}
+.point-center {
+  position: relative;
+  top: 7px;
+  left: 57px;
+}
+.point-radius {
+  position: relative;
+  top: 11px;
+  left: 25px;
 }
 .description-text {
   width: 46%;
