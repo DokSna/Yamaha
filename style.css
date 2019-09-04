@@ -153,17 +153,34 @@ nav li {
   position: relative;
   bottom: 387px;
   right: 52px;
-  color: white;
 }
-.point-center {
+.point-2 {
   position: relative;
-  top: 7px;
-  left: 57px;
+  bottom: 572px;
+  left: 255px;
+}
+.point-3 {
+  position: relative;
+  bottom: 393px;
+  left: 514px;
 }
 .point-radius {
-  position: relative;
-  top: 11px;
-  left: 25px;
+  position: absolute;
+  top: 15px;
+  left: 46px;
+}
+.point-center {
+  position: absolute;
+  top: 19px;
+  left: 50px;
+}
+.point-plus {
+  position: absolute;
+  left: 58px;
+  top: -5px;
+  color: white;
+  font-family:  "Oswald";
+  font-size: 20px;
 }
 .description-text {
   width: 46%;
@@ -194,3 +211,18 @@ nav li:hover {
 }
 
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
+/*._ {
+  font-size: 60px;
+  font-family: "Oswald";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.35565204335854,0,0,0.35565204335854,0,0);
+  -webkit-transform: matrix( 0.35565204335854,0,0,0.35565204335854,0,0);
+  -ms-transform: matrix( 0.35565204335854,0,0,0.35565204335854,0,0);
+  position: absolute;
+  left: 164.453px;
+  top: 609px;
+  z-index: 104;
+}
+*/
