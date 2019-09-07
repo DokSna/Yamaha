@@ -127,7 +127,7 @@ nav li {
 }
 /*  main  ----------------------------------------*/
 .description {
-  height: 634px;  
+  height: 634px;
 }
 .description-image {
   /*display: flex;
@@ -141,52 +141,34 @@ nav li {
 }
 .power {
   display: block;
-  width: 586px;/*100%;594px;*/
+  width: 586px; /*100%;594px;*/
 }
 .moto {
   position: relative;
-  width: 610x;/*108%;*/
+  width: 610x; /*108%;*/
   bottom: 125px;
   right: 0px;
 }
 .point-1 {
   position: relative;
-  bottom: 387px;
-  right: 52px;
+  bottom: 373px;
+  right: 8px;
 }
 .point-2 {
   position: relative;
-  bottom: 572px;
-  left: 255px;
+  bottom: 595px;
+  left: 301px;
 }
 .point-3 {
   position: relative;
-  bottom: 393px;
-  left: 514px;
-}
-.point-radius {
-  position: absolute;
-  top: 15px;
-  left: 46px;
-}
-.point-center {
-  position: absolute;
-  top: 19px;
-  left: 50px;
-}
-.point-plus {
-  position: absolute;
-  left: 58px;
-  top: -5px;
-  color: white;
-  font-family:  "Oswald";
-  font-size: 20px;
+  bottom: 455px;
+  left: 559px;
 }
 .description-text {
   width: 46%;
   float: right;
   box-sizing: border-box;
-}  
+}
 /*--main-end--------------------------------------*/
 a:link {
   color: rgb(33, 35, 39);
