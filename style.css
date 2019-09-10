@@ -1,3 +1,4 @@
+@import url(description-image/description-image.css);
 html,
 body,
 ul {
@@ -128,43 +129,20 @@ nav li {
 /*  main  ----------------------------------------*/
 .description {
   height: 634px;
+  padding-top: 110px;
 }
 .description-image {
   /*display: flex;
   justify-content: center;
   flex-direction: column;*/
-  width: 54%;
+/*   width: 48%;
   float: left;
   box-sizing: border-box;
-  padding: 110px 0px;
+  padding: 110px 0;
   position: relative;
+  margin: 0 46px;
 }
-.power {
-  display: block;
-  width: 586px; /*100%;594px;*/
-}
-.moto {
-  position: relative;
-  width: 610x; /*108%;*/
-  bottom: 125px;
-  right: 0px;
-}
-.point-1 {
-  position: relative;
-  bottom: 373px;
-  right: 8px;
-}
-.point-2 {
-  position: relative;
-  bottom: 595px;
-  left: 301px;
-}
-.point-3 {
-  position: relative;
-  bottom: 455px;
-  left: 559px;
-}
-.description-text {
+ */.description-text {
   width: 46%;
   float: right;
   box-sizing: border-box;

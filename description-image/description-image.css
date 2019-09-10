@@ -1,0 +1,49 @@
+/* html, body {
+  margin: 0;
+  padding: 0;
+} */
+/* .borders {
+  border: 1px dashed green;
+} */
+/* .line {
+  border-top: 1px solid red;
+  width: 605px;
+} */
+.description-image {
+  position: relative;
+  width: 54%;
+  /* height: 83vw; */
+  height: 44.82vw;
+  min-width: 320px;
+  min-height: 386px;
+  margin: 0 auto;
+  float: left;
+}
+.description-image__power {
+  position: absolute;
+  width: 98.5%;
+  left: 1.5%;
+}
+.description-image__moto {
+  position: absolute;
+  width: 99%;
+  top: 15%;
+  left: 1.5%;
+}
+.description-image__point-1 {
+  position: absolute;
+  width: 5.6%;
+  top: 50.57%;
+}
+.description-image__point-2 {
+  position: absolute;
+  width: 5.6%;
+  top: 13.65%;
+  left: 50.92%;
+}
+.description-image__point-3 {
+  position: absolute;
+  width: 5.6%;
+  top: 49.37%;
+  left: 93.8%;
+}
