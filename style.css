@@ -131,18 +131,7 @@ nav li {
   height: 634px;
   padding-top: 110px;
 }
-.description-image {
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;*/
-/*   width: 48%;
-  float: left;
-  box-sizing: border-box;
-  padding: 110px 0;
-  position: relative;
-  margin: 0 46px;
-}
- */.description-text {
+ .description-text {
   width: 46%;
   float: right;
   box-sizing: border-box;
