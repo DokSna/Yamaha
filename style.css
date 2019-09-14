@@ -11,10 +11,10 @@ body {
 }
 .layout-plan {
   /*определяет границы контента на протяжении всей страницы, где это необходимо*/
-  /*max-width: 1280px;*/
-  max-width: 86.6%;
+  width: 86.59%;
   margin: 0 auto;
   box-sizing: border-box;
+  /* border: 1px dashed blue; */
 }
 .clearfix::after {
   /*при использовании float-боксов - родительский контейнер не будет "схлопываться"*/
@@ -25,6 +25,10 @@ body {
 .borders {
   /*будем наблюдать границы разделов на время верстки ;) */
   border: 1px dashed green;
+}
+.borders-red {
+  /*будем наблюдать границы разделов на время верстки ;) */
+  border: 1px dashed red;
 }
 header {
   height: 100px;
@@ -111,8 +115,7 @@ nav li {
   list-style-type: none;
   display: inline-block;
   height: 162px;
-  /*float: left;*/
-  /*margin: 0 30px;*/
+  margin-right: 12px;
 }
 .sub-nav-image {
   width: 157px;
@@ -127,14 +130,22 @@ nav li {
   text-align: center;
 }
 /*  main  ----------------------------------------*/
-.description {
+/* .description {
   height: 634px;
   padding-top: 110px;
+} */
+.description-block-1 {
+  width: 54%;
+  float: left;
+  box-sizing: border-box;
+  padding: 7.37vw 2.68vw;
 }
- .description-text {
-  width: 46%;
+.description-block-2 {
+  width: 45.67%;
   float: right;
   box-sizing: border-box;
+  /* padding: 110px 40px; */
+  padding: 7.37vw 6.23vw 7.37vw 3.52vw;
 }
 /*--main-end--------------------------------------*/
 a:link {

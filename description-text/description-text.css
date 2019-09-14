@@ -2,19 +2,14 @@
   margin: 0;
   padding: 0;
 } */
-.borders {
+/* .borders {
   border: 1px dashed green;
-}
-.line {
+} */
+.line-text {
   border-top: 1px solid red;
-  width: 605px;
+  width: 443px;
 }
 .description-text {
-  position: relative;
-  width: 46%;
-  height: 44.82vw;
-  min-width: 320px;
-  min-height: 386px;
-  margin: 0 auto;
-  float: right;
+  width: 100%;
+  /* padding: 110px 94px; */
 }
