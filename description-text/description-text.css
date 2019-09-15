@@ -5,32 +5,41 @@
 /* .borders {
   border: 1px dashed green;
 } */
-.line-text {
+/* .line-text {
   border-top: 1px solid red;
   width: 443px;
-}
+} */
 .description-text {
   width: 100%;
+  font-size: 14px;
   /* padding: 110px 94px; */
 }
-.description-text__header h1 {
-  display: inline;
-  font-size: 60px;
+.description-text__header {
+  /* line-height: 1.2; */
+  font-size: 18px;
   font-family: "Oswald";
-  color: rgb(33, 35, 39);
-  line-height: 1.2;
+  word-spacing: 5px;
 }
-.YZF‑R1 {
-  font-size: 60px;
+.description-text__header h1 {
+  text-transform: uppercase; /*делает все буквы заглавными*/
+  display: inline;
+  font-size: 74px;
   font-family: "Oswald";
   color: rgb(33, 35, 39);
-  line-height: 1.2;
-  text-align: left;
-  -moz-transform: matrix( 1.25136738804335,0,0,1.25136738804335,0,0);
-  -webkit-transform: matrix( 1.25136738804335,0,0,1.25136738804335,0,0);
-  -ms-transform: matrix( 1.25136738804335,0,0,1.25136738804335,0,0);
-  position: absolute;
-  left: 872.611px;
-  top: 384.5px;
-  z-index: 77;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.description-text__header span {
+  color: #e7e9ee;
+  /* color: red; */
+  font-weight: 700;
+}
+.description-text a {
+  text-decoration: none;
+  color: #81848a;
+}
+.description-text__header .selected-year {
+  color: rgb(238, 59, 51);
 }
