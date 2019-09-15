@@ -13,7 +13,7 @@
 .description-text__header {
   font-size: 18px;
   font-family: "Oswald";
-  word-spacing: 5px;
+  word-spacing: 5px;  /*расстояние между словами*/
 }
 .description-text__header h1 {
   text-transform: uppercase; /*делает все буквы заглавными*/
@@ -21,9 +21,7 @@
   font-size: 74px;
   font-family: "Oswald";
   color: rgb(33, 35, 39);
-  margin: 0;
-  padding: 0;
-  font-weight: 500;
+  font-weight: 500; /*насыщеность шрифта*/
   vertical-align: middle;
 }
 .description-text__header span {
@@ -37,4 +35,22 @@
 }
 .description-text__header .selected-year {
   color: rgb(238, 59, 51);
+}
+/*price*/
+.description-text__price .type-price {
+  font-size: 10px;
+  font-family: "Oswald";
+  color: rgb(129, 132, 138);
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 0.5;
+  /* text-align: left; */
+}
+.description-text__price .price {
+  font-size: 24px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  line-height: 1.2;
+  margin-top: 0;
+  font-weight: 500;
 }
