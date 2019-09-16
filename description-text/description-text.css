@@ -13,7 +13,7 @@
 .description-text__header {
   font-size: 18px;
   font-family: "Oswald";
-  word-spacing: 5px;  /*расстояние между словами*/
+  word-spacing: 5px; /*расстояние между словами*/
 }
 .description-text__header h1 {
   text-transform: uppercase; /*делает все буквы заглавными*/
