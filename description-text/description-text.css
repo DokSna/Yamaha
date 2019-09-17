@@ -84,6 +84,7 @@
   max-width: 209px;
   height: 60px;
   border: 3px solid rgb(238, 59, 51);
+  cursor: pointer;
 }
 .description-text__form :last-child {
   margin-right: 0;
