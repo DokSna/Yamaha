@@ -31,3 +31,7 @@
   width: 60px;
   height: 40px;
 }
+.advantages__active {
+  color: rgb(33, 35, 39);
+  /* background: blue; */
+}
