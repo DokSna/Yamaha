@@ -22,6 +22,10 @@
   margin-top: 11px;
   position: relative;
 }
+.slayder-icon svg {
+  margin-top: 11px;
+  position: relative;
+}
 .slayder-icon__line-grey {
   border-top: 1px solid #e3e3e3;
   position: relative;
@@ -45,3 +49,19 @@ label {
 .borders {
   border: 1px dashed burlywood;
 }
+#switch-1:checked ~ .slayder-icon label:nth-child(1) circle, 
+#switch-2:checked ~ .slayder-icon label:nth-child(2) circle, 
+#switch-3:checked ~ .slayder-icon label:nth-child(3) circle, 
+#switch-4:checked ~ .slayder-icon label:nth-child(4) circle, 
+#switch-5:checked ~ .slayder-icon label:nth-child(5) circle {
+  fill: #ee3b33;
+}
+#switch-1:checked ~ .slayder-icon label:nth-child(1) li, 
+#switch-2:checked ~ .slayder-icon label:nth-child(2) li, 
+#switch-3:checked ~ .slayder-icon label:nth-child(3) li, 
+#switch-4:checked ~ .slayder-icon label:nth-child(4) li, 
+#switch-5:checked ~ .slayder-icon label:nth-child(5) li {
+  color: rgb(33, 35, 39);
+}
+
+
