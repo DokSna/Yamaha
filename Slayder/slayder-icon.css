@@ -1,16 +1,16 @@
-.advantages-icon {
+.slayder-icon {
   margin: 0 auto;
   width: 77.5%;
   text-align: center;
   margin-bottom: 45px;
   min-width: 420px;
 }
-.advantages-icon ul {
+.slayder-icon ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
 }
-.advantages-icon li {
+.slayder-icon li {
   list-style-type: none;
   display: inline-block;
   font-size: 12px;
@@ -18,11 +18,11 @@
   color: #cccccc;
   line-height: 0.75;
 }
-.advantages-icon img {
+.slayder-icon img {
   margin-top: 11px;
   position: relative;
 }
-.advantages__line-grey {
+.slayder-icon__line-grey {
   border-top: 1px solid #e3e3e3;
   position: relative;
   /* top: 76px; */
@@ -30,7 +30,7 @@
   width: 80%;
   margin: 0 auto;
 }
-.advantages-icon li div {
+.slayder-icon li div {
   /* width: 60px; */
   width: 64px;
   height: 40px;
