@@ -17,11 +17,8 @@
   font-family: "Oswald";
   color: #cccccc;
   line-height: 0.75;
+  width: 64px;
 }
-/* .slayder-icon img {
-  margin-top: 11px;
-  position: relative;
-} */
 .slayder-icon svg {
   margin-top: 16px;
   position: relative;
@@ -30,7 +27,7 @@
   border-top: 1px solid #e3e3e3;
   position: relative;
   /* top: 76px; */
-  top: 92px;
+  top: 89px;
   width: 80%;
   margin: 0 auto;
 }
@@ -59,6 +56,38 @@ label {
   width: 30px;
   height: 30px;
   background: url(/slayder/slayder-icon/slayder-icon-1.png) no-repeat;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.slayder-icon-2 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(/slayder/slayder-icon/slayder-icon-2.png) no-repeat;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.slayder-icon-3 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(/slayder/slayder-icon/slayder-icon-3.png) no-repeat;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.slayder-icon-4 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(/slayder/slayder-icon/slayder-icon-4.png) no-repeat;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.slayder-icon-5 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(/slayder/slayder-icon/slayder-icon-5.png) no-repeat;
   margin: 0 auto;
   margin-bottom: 2px;
 }
