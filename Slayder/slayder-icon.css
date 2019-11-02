@@ -37,17 +37,17 @@ label {
 .borders {
   border: 1px dashed burlywood;
 }
-#switch-1:checked ~ .slayder-icon label:nth-child(1) circle, 
-#switch-2:checked ~ .slayder-icon label:nth-child(2) circle, 
-#switch-3:checked ~ .slayder-icon label:nth-child(3) circle, 
-#switch-4:checked ~ .slayder-icon label:nth-child(4) circle, 
+#switch-1:checked ~ .slayder-icon label:nth-child(1) circle,
+#switch-2:checked ~ .slayder-icon label:nth-child(2) circle,
+#switch-3:checked ~ .slayder-icon label:nth-child(3) circle,
+#switch-4:checked ~ .slayder-icon label:nth-child(4) circle,
 #switch-5:checked ~ .slayder-icon label:nth-child(5) circle {
   fill: #ee3b33;
 }
-#switch-1:checked ~ .slayder-icon label:nth-child(1) li, 
-#switch-2:checked ~ .slayder-icon label:nth-child(2) li, 
-#switch-3:checked ~ .slayder-icon label:nth-child(3) li, 
-#switch-4:checked ~ .slayder-icon label:nth-child(4) li, 
+#switch-1:checked ~ .slayder-icon label:nth-child(1) li,
+#switch-2:checked ~ .slayder-icon label:nth-child(2) li,
+#switch-3:checked ~ .slayder-icon label:nth-child(3) li,
+#switch-4:checked ~ .slayder-icon label:nth-child(4) li,
 #switch-5:checked ~ .slayder-icon label:nth-child(5) li {
   color: rgb(33, 35, 39);
 }
@@ -91,10 +91,20 @@ label {
   margin: 0 auto;
   margin-bottom: 2px;
 }
-#switch-1:checked ~ .slayder-icon label:nth-child(1) a, 
-#switch-2:checked ~ .slayder-icon label:nth-child(2) a, 
-#switch-3:checked ~ .slayder-icon label:nth-child(3) a, 
-#switch-4:checked ~ .slayder-icon label:nth-child(4) a, 
+/*обратная связь*/
+#switch-1:checked ~ .slayder-icon label:nth-child(1) a,
+#switch-2:checked ~ .slayder-icon label:nth-child(2) a,
+#switch-3:checked ~ .slayder-icon label:nth-child(3) a,
+#switch-4:checked ~ .slayder-icon label:nth-child(4) a,
 #switch-5:checked ~ .slayder-icon label:nth-child(5) a {
   background-position-x: -30px;
+}
+/*- - С л а й д ы - -*/
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+.slayder-articles {
+  margin: 0 auto;
 }
