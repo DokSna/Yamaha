@@ -13,7 +13,8 @@ body {
   margin: 0 auto;
   width: 77.5%;
   text-align: center;
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
+  margin-bottom: 42px;
   min-width: 310px;
 }
 .slayder-icon ul {
@@ -47,6 +48,9 @@ label {
 }
 .borders {
   border: 1px dashed burlywood;
+}
+.borders-2 {
+  border: 1px dashed rgb(222, 135, 208);
 }
 #switch-1:checked ~ .slayder-icon label:nth-child(1) circle,
 #switch-2:checked ~ .slayder-icon label:nth-child(2) circle,
@@ -133,8 +137,8 @@ label {
   box-sizing: border-box;
 }
 .image img {
-  width: 100%;
-  max-width: 300px;
+  max-width: 96%;
+  /* max-width: 320px; */
   text-align: center;
 }
 .image {
@@ -148,13 +152,11 @@ label {
   align-items: center;
   flex-direction: column;
 }
-/* .image:nth-child(1) {
-  display: block;
-} */
 .specification {
   float: right;
   width: 52%;
-  padding: 10px;
+  /* padding: 10px; */
+  padding: 0 10px 10px;
   box-sizing: border-box;
 }
 .specification h1 {
@@ -230,4 +232,7 @@ label {
   .slayder-articles .specification {
     width: 100%;
   }
+}
+.slayder-all-size:nth-child(1) img {
+  width: auto;
 }
