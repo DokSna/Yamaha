@@ -1,7 +1,16 @@
-html, body {
+@font-face {
+  src: url(/slayder/fonts/SourceSansPro-Regular.otf);
+  src: url(/slayder/fonts/SourceSansPro-Light.otf);
+  src: url(/slayder/fonts/Oswald-Regular.ttf);
+  src: url(/slayder/fonts/Oswald-Light.ttf);
+}
+html,
+body {
   margin: 0;
   padding: 0;
-}.slayder-icon {
+  /* width: 1492px; */
+}
+.slayder-icon {
   margin: 0 auto;
   width: 77.5%;
   text-align: center;
@@ -108,41 +117,104 @@ label {
   display: block;
   clear: both;
 }
-.slayder-articles {
+.slayder-articles,
+.slayder image {
   box-sizing: border-box;
   overflow: hidden;
 }
-/* .slayder-articles {
+.slayder-articles {
   margin: 0 auto;
+  width: 80%;
+  min-height: 50px;
 }
- */
+
 .slayder-articles article {
   width: 20%;
   float: left;
   box-sizing: border-box;
 }
-/* .image, .specification {
-  overflow: hidden;
+.image img {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
 }
- */.image img {
-  width: 49%;
+.image {
+  float: left;
+  width: 48%;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0 auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .image:nth-child(1) {
+  display: block;
+} */
+.specification {
+  float: right;
+  width: 52%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.specification h1 {
+  font-size: 12.786px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+.specification p {
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+  color: rgb(33, 35, 39);
+  line-height: 1.667;
+  text-align: left;
 }
 .slayder-all-size {
   width: 500%;
 }
+
 /*позиция изображения при активации переключателя*/
 #switch-1:checked ~ .slayder-articles .slayder-all-size {
-	margin-left: 0;
+  margin-left: 0;
 }
 #switch-2:checked ~ .slayder-articles .slayder-all-size {
-	margin-left: -100%;
+  margin-left: -100%;
 }
 #switch-3:checked ~ .slayder-articles .slayder-all-size {
-	margin-left: -200%;
+  margin-left: -200%;
 }
 #switch-4:checked ~ .slayder-articles .slayder-all-size {
-	margin-left: -300%;
+  margin-left: -300%;
 }
 #switch-5:checked ~ .slayder-articles .slayder-all-size {
-	margin-left: -400%;
+  margin-left: -400%;
+}
+/*скрывает инпуты на странице*/
+.slayder input {
+  display: none;
+}
+/*---*/
+.Cutting_edge_Crossplane_Engine {
+  font-size: 12.786px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+.slayder-articles article {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) { /*768 or 617*/
+  .slayder-articles .image,
+  .slayder-articles .specification,
+  .slayder-articles {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
