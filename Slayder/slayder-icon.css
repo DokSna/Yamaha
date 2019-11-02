@@ -1,4 +1,7 @@
-.slayder-icon {
+html, body {
+  margin: 0;
+  padding: 0;
+}.slayder-icon {
   margin: 0 auto;
   width: 77.5%;
   text-align: center;
@@ -99,12 +102,47 @@ label {
 #switch-5:checked ~ .slayder-icon label:nth-child(5) a {
   background-position-x: -30px;
 }
-/*- - С л а й д ы - -*/
+/*- - С л а й д ы - -(1492/2 - 15px)(1492/2 + 15px) ~ 731 vs 761 ~ 49% vs 51%*/
 .clearfix {
   content: "";
   display: block;
   clear: both;
 }
 .slayder-articles {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* .slayder-articles {
   margin: 0 auto;
+}
+ */
+.slayder-articles article {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+}
+/* .image, .specification {
+  overflow: hidden;
+}
+ */.image img {
+  width: 49%;
+}
+.slayder-all-size {
+  width: 500%;
+}
+/*позиция изображения при активации переключателя*/
+#switch-1:checked ~ .slayder-articles .slayder-all-size {
+	margin-left: 0;
+}
+#switch-2:checked ~ .slayder-articles .slayder-all-size {
+	margin-left: -100%;
+}
+#switch-3:checked ~ .slayder-articles .slayder-all-size {
+	margin-left: -200%;
+}
+#switch-4:checked ~ .slayder-articles .slayder-all-size {
+	margin-left: -300%;
+}
+#switch-5:checked ~ .slayder-articles .slayder-all-size {
+	margin-left: -400%;
 }
