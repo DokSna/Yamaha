@@ -9,8 +9,8 @@
 html,
 body {
   /*убираем отступы по умолчанию в браузерах*/
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 .slayder-icon {
   /*блок с иконками-переключателями*/
@@ -41,7 +41,8 @@ body {
 .slayder-icon__line-grey {
   border-top: 1px solid #e3e3e3;
   position: relative;
-  top: 89px;
+  /* top: 89px; */
+  top: 73px;
   width: 80%;
   margin: 0 auto;
 }
@@ -112,9 +113,9 @@ label {
   background-position-x: -30px;
 }
 /*- - С л а й д ы - -(1492/2 - 15px)(1492/2 + 15px) ~ 731 vs 761 ~ 49% vs 51%*/
-.clearfix {
+.clearfix:after {
   content: "";
-  display: block;
+  display: table;
   clear: both;
 }
 .slayder-articles,
