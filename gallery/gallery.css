@@ -18,7 +18,12 @@ body,
   display: flex;
   flex-direction: column;
   width: 23.5%;
-  height: 34.45vw;
+  overflow: hidden;
+  /* height: 34.45vw; это закомментировал*/
+}
+.gallery-left img,
+.gallery-right img {
+  width: 100%; /*а это написал*/
 }
 .gallery-left {
   float: left;
@@ -28,4 +33,22 @@ body,
 }
 .gallery img:nth-child(3) {
   width: 53%;
+}
+/*теперь добавим адаптивности, и всё будет клёва =)*/
+@media (max-width: 700px) {
+  .gallery-left {
+    width: 50.07%;
+  }
+  .gallery-right {
+    width: 49.93%;
+  }
+  .gallery img:nth-child(3) {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .gallery-left,
+  .gallery-right {
+    width: 100%;
+  }
 }
