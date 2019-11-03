@@ -1,0 +1,31 @@
+html,
+body,
+.gallery,
+.gallery img {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallery {
+  width: 100%;
+}
+.gallery-left,
+.gallery-right {
+  display: flex;
+  flex-direction: column;
+  width: 23.5%;
+  height: 34.45vw;
+}
+.gallery-left {
+  float: left;
+}
+.gallery-right {
+  float: right;
+}
+.gallery img:nth-child(3) {
+  width: 53%;
+}
