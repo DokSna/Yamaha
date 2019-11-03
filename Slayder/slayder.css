@@ -6,12 +6,6 @@
   src: url(/slayder/fonts/Oswald-Regular.ttf);
   src: url(/slayder/fonts/Oswald-Light.ttf);
 }
-html,
-body {
-  /*убираем отступы по умолчанию в браузерах*/
-  /* margin: 0;
-  padding: 0; */
-}
 .slayder-icon {
   /*блок с иконками-переключателями*/
   margin: 0 auto;
