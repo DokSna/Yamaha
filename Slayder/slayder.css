@@ -1,4 +1,6 @@
 @font-face {
+  /*подключаем шрифты*/
+  font-family: "Source Sans Pro", "Oswald";
   src: url(/slayder/fonts/SourceSansPro-Regular.otf);
   src: url(/slayder/fonts/SourceSansPro-Light.otf);
   src: url(/slayder/fonts/Oswald-Regular.ttf);
@@ -6,16 +8,17 @@
 }
 html,
 body {
+  /*убираем отступы по умолчанию в браузерах*/
   margin: 0;
   padding: 0;
 }
 .slayder-icon {
+  /*блок с иконками-переключателями*/
   margin: 0 auto;
   width: 77.5%;
   text-align: center;
-  /* margin-bottom: 45px; */
   margin-bottom: 42px;
-  min-width: 310px;
+  min-width: 320px;
 }
 .slayder-icon ul {
   display: flex;
@@ -38,7 +41,6 @@ body {
 .slayder-icon__line-grey {
   border-top: 1px solid #e3e3e3;
   position: relative;
-  /* top: 76px; */
   top: 89px;
   width: 80%;
   margin: 0 auto;
@@ -46,12 +48,7 @@ body {
 label {
   cursor: pointer;
 }
-.borders {
-  border: 1px dashed burlywood;
-}
-.borders-2 {
-  border: 1px dashed rgb(222, 135, 208);
-}
+/*связка при переключении между input и элементами значков-переключателей*/
 #switch-1:checked ~ .slayder-icon label:nth-child(1) circle,
 #switch-2:checked ~ .slayder-icon label:nth-child(2) circle,
 #switch-3:checked ~ .slayder-icon label:nth-child(3) circle,
@@ -130,7 +127,6 @@ label {
   width: 80%;
   min-height: 50px;
 }
-
 .slayder-articles article {
   width: 20%;
   float: left;
@@ -138,7 +134,6 @@ label {
 }
 .image img {
   max-width: 96%;
-  /* max-width: 320px; */
   text-align: center;
 }
 .image {
@@ -155,7 +150,6 @@ label {
 .specification {
   float: right;
   width: 52%;
-  /* padding: 10px; */
   padding: 0 10px 10px;
   box-sizing: border-box;
 }
@@ -177,7 +171,6 @@ label {
 .slayder-all-size {
   width: 500%;
 }
-
 /*позиция изображения при активации переключателя*/
 #switch-1:checked ~ .slayder-articles .slayder-all-size {
   margin-left: 0;
@@ -198,18 +191,7 @@ label {
 .slayder input {
   display: none;
 }
-/*---*/
-.Cutting_edge_Crossplane_Engine {
-  font-size: 12.786px;
-  font-family: "Oswald";
-  color: rgb(33, 35, 39);
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: left;
-}
-.slayder-articles article {
-  box-sizing: border-box;
-}
+/* R e s p o n s i v e */
 @media (max-width: 768px) {
   /*768 or 617*/
   .slayder-icon {
@@ -232,7 +214,4 @@ label {
   .slayder-articles .specification {
     width: 100%;
   }
-}
-.slayder-all-size:nth-child(1) img {
-  width: auto;
 }
