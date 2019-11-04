@@ -1,13 +1,11 @@
 .borders {
-    border: 1px dashed green;
+  border: 1px dashed green;
 }
-.goods
-/* .goods ul */ {
-    /* margin: 0 auto; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.goods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .goods_benefits li,
 .goods_things li {
@@ -24,18 +22,37 @@
   line-height: 1.2;
 }
 .goods_name {
-  font-size: 12.786px;
+  font-size: 14px;
   font-family: "Oswald";
   color: rgb(33, 35, 39);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  margin: 0;
 }
 .goods_price {
-  font-size: 11px;
+  font-size: 12px;
   font-family: "Oswald";
   color: rgb(141, 144, 149);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  margin: 0;
+  position: relative;
+  top: 6px;
+}
+.goods_image {
+  width: 203px;
+  height: 203px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goods_things li {
+  margin: 0 40px;
+}
+.goods_benefits {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
