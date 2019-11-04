@@ -173,5 +173,9 @@ nav li:hover {
 .show-360 {
   position: relative;
   top: 34px;
+  margin-bottom: 100px;
+}
+.goods {
+  margin-bottom: 40px;
 }
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/

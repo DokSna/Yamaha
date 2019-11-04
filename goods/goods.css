@@ -1,6 +1,3 @@
-.borders {
-  border: 1px dashed green;
-}
 .goods {
   display: flex;
   flex-direction: column;
