@@ -170,4 +170,8 @@ nav li:hover {
   border-bottom: 3px solid #ee3b33;
 }
 
+.show-360 {
+  position: relative;
+  top: 34px;
+}
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
