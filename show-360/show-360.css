@@ -1,0 +1,27 @@
+.show-360 {
+  text-align: center;
+}
+.show-360 img {
+  text-align: center;
+  width: 58%;
+}
+.show-360 p {
+  font-size: 15px;
+  font-family: "Oswald";
+  color: rgb(33, 35, 39);
+  text-transform: uppercase;
+}
+.show-360_text img,
+.show-360_text p {
+  display: inline;
+}
+.show-360_text img {
+  width: 23px;
+  position: relative;
+  top: 4px;
+  right: 5px;
+}
+.show-360_text {
+  position: relative;
+  top: -10px;
+}
