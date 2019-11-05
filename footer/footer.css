@@ -1,0 +1,38 @@
+.footer,
+.footer_menu,
+.footer_info {
+  width: 100%;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer_menu_links,
+.footer_info-left {
+  float: left;
+}
+.footer_menu_image,
+.footer_info-right {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer_menu_links_block,
+/* .footer_info-left,
+.footer_info-right, */
+.footer_info-right li {
+  display: inline-block;
+}
+.footer_info-left {
+    width: 50%;
+}
+.footer_info-right {
+    width: 40%;
+}
+
+
+.borders {
+    border: 1px dashed #aaaaaa;
+}
