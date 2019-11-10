@@ -7,6 +7,8 @@
 }
 .footer_info {
   background-color: #191a1e;
+  height: 38px;
+  padding-top: 10px;
 }
 .footer a {
   color: #787e89;

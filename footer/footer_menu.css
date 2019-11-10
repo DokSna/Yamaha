@@ -1,8 +1,9 @@
 .footer_menu-background {
   background-color: rgb(33, 35, 39);
   width: 100%;
-  height: 210px;
-  padding-top: 37px;
+  /* height: 210px; */
+  height: 172px;
+  padding-top: 38px;
 }
 .footer_menu {
   width: 77.3%;

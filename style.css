@@ -1,4 +1,4 @@
-@import url(description-image/description-image.css);
+/* @import url(description-image/description-image.css); */
 html,
 body,
 ul {
@@ -7,7 +7,8 @@ ul {
 }
 body {
   background-color: #ffffff;
-  min-width: 1133px; /*что бы не ломался макет, потом в конце общую адаптивность сделаем под разные экраны*/
+  /*что бы не ломался макет, потом в конце общую адаптивность сделаем под разные экраны*/
+  min-width: 1133px; 
 }
 .layout-plan {
   /*определяет границы контента на протяжении всей страницы, где это необходимо*/
@@ -176,6 +177,8 @@ nav li:hover {
   margin-bottom: 100px;
 }
 .goods {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  margin-bottom: 97px;
 }
+
 /*width 1492px-100%   100 1292 100 - 6.7% 86.6% 6.7%*/
